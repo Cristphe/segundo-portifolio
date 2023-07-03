@@ -1,16 +1,19 @@
 
 
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: auto;
 }
 
+
+
 body {
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;   
+    margin: 0;
+    padding: 0
 }
 
 header {
@@ -41,7 +44,6 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    padding: 0px 630px;
 }
 
 
@@ -49,20 +51,17 @@ img {
 h1 {
     text-align: center;
     color: rgba(165, 42, 42, 0.655);
-    margin-right: 25px;
 }
 
 h2 {
     text-align: center;
     color: rgba(26, 180, 26, 0.557);
-    margin-right: 25px;
 }
 
 nav img{
     height: 60px;
     width: 120px;
     border-radius: 30%;
-    padding: 0px 640px;
 }
 
 nav img:hover {
@@ -70,4 +69,8 @@ nav img:hover {
     opacity: 1;
     animation: 0.2s ;
     margin-bottom: 10%;
+}
+
+.centro {
+    text-align: center;
 }
