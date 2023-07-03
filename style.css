@@ -23,9 +23,7 @@ header {
     align-items: center;
     box-shadow: rgba(165, 42, 42, 0.153);
     border-bottom: 1px solid rgba(165, 42, 42, 0.397);
-    background-color: rgba(165, 42, 42, 0.441);
-    padding: 3px;
-    background-color: blur(10px);
+    background-color: rgba(165, 42, 42, 0.441);   
     color: white;
     margin: 0;
     
@@ -62,6 +60,7 @@ nav img{
     height: 60px;
     width: 120px;
     border-radius: 30%;
+    
 }
 
 nav img:hover {
