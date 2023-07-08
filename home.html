@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="Text/JavaScript" src="js.js" defer></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 
 <body>
@@ -21,59 +21,73 @@
     </section>
 
    <!--Links-->
-    <nav>
+    <nav >
+
         <section class="centro">
     <a href="https://t.me/CristopheJunior"><img src="./img/telegram.svg" alt=""></a>   
-    <a href="https://www.linkedin.com/in/cristophedamiao/""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt=""></a>
-    <a href="https://github.com/Cristphe"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt=""></a>
+    <a href="https://www.linkedin.com/in/cristophedamiao/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt=""></a>
+    <a href="https://github.com/Cristphe"><img src="./img/git4.png" alt=""></a>
         </section>
     </nav>
 
-    <!-- Sobre mim -->
-    <section class="selecionar">
-        <div id="selecionar">
-           
-                <input type="radio" name="select" onclick="sobre()"; id="Sobre mim" value=""> <label for="Sobre mim" value="">Sobre mim</label>
-                <input type="radio" name="select" onclick="projetos()"; id="Projetos"><label for="Projetos">Projetos</label>
-            
+    <!-- Sobre mim/Projetos -->
+    
+    <div class="menu">
+        <section class="centro">
+       <label for=""><input type="radio"> <a class="Single" target="1">Sobre mim</a></label>
+       <label for=""><input type="radio"> <a class="Single" target="2">Projetos</a></label>
+        </section>
         </div>
-
-        <div class="Sobre">           
-            <p>Busco sempre aprimorar minhas habilidade e buscar conhecimentos novos.</p>
-            <p>Gosto de desafios, assim consigo aprender algo novo ou melhorar alguma habilidade cujo já possuo.</p>
-        </div>
-
-        <div class="Projetos">
-            <h3>Fala Manaus</h3>
-             <p>Antes de estudar programação eu já tinha vontade de fazer coisas diferentes.
-             </p>
-             <p>Em um curso sobre vendas pelo Senac tive um projeto, desempenhei como o criador do web site do projeto Fala Manaus.</p>
-             <p>Mesmo sendo algo simples foi algo que abriu meus olhos para a programação mesmo sem saber disso.</p>
-             <p>Em seguida mostrarei:</p>
-             <div class="centro">
-                <img src="./img/FALA-MANAUS_ (1).webp">
-                <footer>
-                        <a href="https://falamanaus10.wixsite.com/falamanaus1" target="_blank" rel="noopener noreferrer">
-                           <p>Fala Manaus</p>
-                        </a>
+         
+    
+        <section class="target_box">
+            <div id="div1" class="target"> <p>Busco sempre aprimorar minhas habilidade e buscar conhecimentos novos.</p>
+                <p>Gosto de desafios, assim consigo aprender algo novo ou melhorar alguma habilidade cujo já possuo.</p>
             </div>
-            <h3>Trilha do aprendiz</h3>
-            <p>Mesmo sem não entender muito sobre programaçã aceitei um desafio, participar do Nasa Space Challenge como auxiliar de programação e produtor músical.
-           </p>
-           <p>Esse projeto foi feito em 5 dias consecutivos, onde fomos levados a exaustão porém foi algo recompensado, ficamos em 2° lugar.</p>
-           <p>
-               Levo este projeto para minha vida, ele foi algo capaz de demonstrar que tudo é possivel, basta apenas ter vontade.
-           </p>
-           <div class="centro">
-               <img src="./img/TRILHA DO APRENDIZ.png">
-                   <a href="https://2021.spaceappschallenge.org/challenges/statements/the-trail-to-mars-can-you-keep-your-crew-alive/teams/trilha-do-aprendiz/project" target="_blank" rel=" noopener noreferrer">
-                       <p>Trilha do aprendiz</p>
-                   </a>             
-           </div>
-
+            <div id="div2" class="target">  <h3>Fala Manaus</h3>
+                <p>Antes de estudar programação eu já tinha vontade de fazer coisas diferentes.
+                </p>
+                <p>Em um curso sobre vendas pelo Senac tive um projeto, desempenhei como o criador do web site do projeto Fala Manaus.</p>
+                <p>Mesmo sendo algo simples foi algo que abriu meus olhos para a programação mesmo sem saber disso.</p>
+                <p>Em seguida mostrarei:</p>
+                <div class="centro">
+                   <img src="./img/FALA-MANAUS_ (1).webp">
+                   <footer>
+                           <a href="https://falamanaus10.wixsite.com/falamanaus1" target="_blank" rel="noopener noreferrer">
+                              <p>Fala Manaus</p>
+                           </a>
+               </div>
+               <h3>Trilha do aprendiz</h3>
+               <p>Mesmo sem não entender muito sobre programaçã aceitei um desafio, participar do Nasa Space Challenge como auxiliar de programação e produtor músical.
+              </p>
+              <p>Esse projeto foi feito em 5 dias consecutivos, onde fomos levados a exaustão porém foi algo recompensado, ficamos em 2° lugar.</p>
+              <p>
+                  Levo este projeto para minha vida, ele foi algo capaz de demonstrar que tudo é possivel, basta apenas ter vontade.
+              </p>
+              <div class="centro">
+                  <img src="./img/TRILHA DO APRENDIZ.png">
+                      <a href="https://2021.spaceappschallenge.org/challenges/statements/the-trail-to-mars-can-you-keep-your-crew-alive/teams/trilha-do-aprendiz/project" target="_blank" rel=" noopener noreferrer">
+                          <p>Trilha do aprendiz</p>
+                      </a>             
+              </div>
+            </div>
         </div>
-
-    </section>
-
+        </section>
+       
+    
+        <script type="text/javascript">
+                jQuery(function(){
+                jQuery('#showall').click(function(){
+                jQuery('.target').show();
+                });
+    
+    
+            jQuery('.Single').click(function(){
+                jQuery('.target').hide();
+                jQuery('#div' +$(this).attr('target')).show();
+            });
+        });
+    
+        </script>
 </body>
 </html>

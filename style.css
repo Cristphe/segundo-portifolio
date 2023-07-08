@@ -16,8 +16,16 @@ body {
 
 
 /*HOME*/
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    border-radius: 0;
+    
 
-a {
+}
+
+a .network{
     color: white;
     text-decoration: none;
 }
@@ -30,6 +38,7 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    
 }
 
 
@@ -48,14 +57,13 @@ nav img{
     height: 60px;
     width: 120px;
     border-radius: 30%;
-    
 }
 
 nav img:hover {
     transition: 0.5s;
     opacity: 1;
     animation: 0.2s ;
-    margin-bottom: 3%;
+    margin-bottom: 10%;
 }
 
 .centro {
@@ -63,13 +71,48 @@ nav img:hover {
 }
 
 
-/*Botões*/
-.selecionar {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    margin-top: 6em;     
+
+/*Titulo*/
+h3 {
+    text-align: center;
+    color: rgba(165, 42, 42, 0.655);
+    font-size: 25px;
 }
+
+
+/*Sobre mim/Projetos*/
+
+/*INPUT*/
+.menu{
+    margin: 5% 12%;
+    background: transparent;
+    padding: 0;
+}
+a, #showall  {
+    display: inline-block;
+    margin: 0 1%;
+    padding: 3%;
+    border-radius: 11%;
+    -webkit-box-shadow: 0 3px 12px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 3px 12px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 12px 3px rgba(0,0,0,0.2);
+    
+}
+
+
+.target_box{
+    margin: 6% 10%;
+    background: transparent;
+   
+}
+
+.menu a{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    border: 2px solid green;
+
+} 
 
 input[type= "radio"] {
     display: none;
@@ -79,7 +122,6 @@ label {
     position: relative;
     color: rgba(26, 180, 26, 0.694);
     font-size: 20px;
-    border: 3px solid rgba(165, 42, 42, 0.441); 
     border-radius: 3px solid rgba(165, 42, 42, 0.441);
     padding: 3px 40px;
 }
@@ -89,25 +131,10 @@ label:before{
 }
 
 input[type="radio"]:checked + label{
-    background-color: rgba(0, 128, 0, 0.349);
-    color: rgb(0, 233, 16);
+    background-color: rgba(0, 128, 0, 0.692);
+    color: white;
 }
 
-/*Titulo*/
-h3 {
-    text-align: center;
-    color: rgba(165, 42, 42, 0.655);
+p {
     font-size: 25px;
 }
-/*Sobre mim*/
-.Sobre{
-    display: none;
-    text-align: center;
-}
-/*Projetos*/
-.Projetos{
-    display: none;
-    text-align: center;
-    
-}
-
