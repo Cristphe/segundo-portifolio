@@ -5,27 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        main {
-            padding: 0;
-            border-radius: 10px;
-        }
-    </style>
+    <script type="Text/JavaScript" src="js.js" defer></script>    
 </head>
 
 <body>
-    <section>
-    <header>
-        <a href="home.html">Home</a>
-        <a href="Sobre mim.html">Sobre mim</a>
-        <a href="Projetos.html">Projetos</a>
-    </header>
-    </section>
-   
-    <!-- Sessão foto home -->
+     <!-- Sessão foto home -->
     <section class="centro">
     <img src="./img/foto.jpeg" alt="">
     </section>
+
     <!-- Nome e profissão -->
     <section class="centro">
     <h1>Cristophe Damião</1>
@@ -40,5 +28,52 @@
     <a href="https://github.com/Cristphe"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt=""></a>
         </section>
     </nav>
+
+    <!-- Sobre mim -->
+    <section class="selecionar">
+        <div id="selecionar">
+           
+                <input type="radio" name="select" onclick="sobre()"; id="Sobre mim" value=""> <label for="Sobre mim" value="">Sobre mim</label>
+                <input type="radio" name="select" onclick="projetos()"; id="Projetos"><label for="Projetos">Projetos</label>
+            
+        </div>
+
+        <div class="Sobre">           
+            <p>Busco sempre aprimorar minhas habilidade e buscar conhecimentos novos.</p>
+            <p>Gosto de desafios, assim consigo aprender algo novo ou melhorar alguma habilidade cujo já possuo.</p>
+        </div>
+
+        <div class="Projetos">
+            <h3>Fala Manaus</h3>
+             <p>Antes de estudar programação eu já tinha vontade de fazer coisas diferentes.
+             </p>
+             <p>Em um curso sobre vendas pelo Senac tive um projeto, desempenhei como o criador do web site do projeto Fala Manaus.</p>
+             <p>Mesmo sendo algo simples foi algo que abriu meus olhos para a programação mesmo sem saber disso.</p>
+             <p>Em seguida mostrarei:</p>
+             <div class="centro">
+                <img src="./img/FALA-MANAUS_ (1).webp">
+                <footer>
+                        <a href="https://falamanaus10.wixsite.com/falamanaus1" target="_blank" rel="noopener noreferrer">
+                           <p>Fala Manaus</p>
+                        </a>
+            </div>
+            <h3>Trilha do aprendiz</h3>
+            <p>Mesmo sem não entender muito sobre programaçã aceitei um desafio, participar do Nasa Space Challenge como auxiliar de programação e produtor músical.
+           </p>
+           <p>Esse projeto foi feito em 5 dias consecutivos, onde fomos levados a exaustão porém foi algo recompensado, ficamos em 2° lugar.</p>
+           <p>
+               Levo este projeto para minha vida, ele foi algo capaz de demonstrar que tudo é possivel, basta apenas ter vontade.
+           </p>
+           <div class="centro">
+               <img src="./img/TRILHA DO APRENDIZ.png">
+                   <a href="https://2021.spaceappschallenge.org/challenges/statements/the-trail-to-mars-can-you-keep-your-crew-alive/teams/trilha-do-aprendiz/project" target="_blank" rel=" noopener noreferrer">
+                       <p>Trilha do aprendiz</p>
+                   </a>             
+           </div>
+
+        </div>
+
+    </section>
+
 </body>
 </html>

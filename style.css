@@ -1,33 +1,19 @@
 
-
+/*Geral*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: auto;
 }
 
-
-
 body {
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;   
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    box-shadow: rgba(165, 42, 42, 0.153);
-    border-bottom: 1px solid rgba(165, 42, 42, 0.397);
-    background-color: rgba(165, 42, 42, 0.441);   
-    color: white;
-    margin: 0;
-    
-}
 
 /*HOME*/
 
@@ -47,17 +33,17 @@ img {
 }
 
 
-
+/*Nome*/
 h1 {
     text-align: center;
     color: rgba(165, 42, 42, 0.655);
 }
-
+/*Dev*/
 h2 {
     text-align: center;
     color: rgba(26, 180, 26, 0.557);
 }
-
+/*Foto*/
 nav img{
     height: 60px;
     width: 120px;
@@ -69,10 +55,59 @@ nav img:hover {
     transition: 0.5s;
     opacity: 1;
     animation: 0.2s ;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 .centro {
     text-align: center;
+}
+
+
+/*Botões*/
+.selecionar {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-top: 6em;     
+}
+
+input[type= "radio"] {
+    display: none;
+}
+
+label {
+    position: relative;
+    color: rgba(26, 180, 26, 0.694);
+    font-size: 20px;
+    border: 3px solid rgba(165, 42, 42, 0.441); 
+    border-radius: 3px solid rgba(165, 42, 42, 0.441);
+    padding: 3px 40px;
+}
+
+label:before{
+    content: "";
+}
+
+input[type="radio"]:checked + label{
+    background-color: rgba(0, 128, 0, 0.349);
+    color: rgb(0, 233, 16);
+}
+
+/*Titulo*/
+h3 {
+    text-align: center;
+    color: rgba(165, 42, 42, 0.655);
+    font-size: 25px;
+}
+/*Sobre mim*/
+.Sobre{
+    display: none;
+    text-align: center;
+}
+/*Projetos*/
+.Projetos{
+    display: none;
+    text-align: center;
+    
 }
 
