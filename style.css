@@ -138,3 +138,7 @@ input[type="radio"]:checked + label{
 p {
     font-size: 25px;
 }
+
+.target{
+    display: none;
+}
